@@ -180,7 +180,8 @@ legend("top",
 # Prever 1 ano
 prev_Ad_des = forecast::forecast(Ajuste_Des,
                                  h = 12,
-                                 level = c(80,95))
+                                 level = c(80,
+                                           95))
 
 
 # Modelo multiplicativo
